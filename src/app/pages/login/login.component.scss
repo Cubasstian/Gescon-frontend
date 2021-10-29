@@ -1,0 +1,41 @@
+nb-card {
+    max-width: 50em;
+}
+
+.toggle {
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    z-index: 9999 !important;
+    color: #CA3A27;
+    nb-icon {
+        margin-left: 0;
+        font-size: 22px;
+    }
+    &.blue {
+        color: var(--ion-color-medium);
+    }
+}
+
+.toggle-input {
+    --padding-end: 35px !important;
+}
+
+.block {
+    width: 800px;
+}
+
+.trans {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.trans2 {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
+[dir="ltr"] [_nghost-nbx-c123] {
+    text-align: center;
+}

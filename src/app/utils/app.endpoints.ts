@@ -1,0 +1,8 @@
+//export const GLOBAL_ENDPOINT = 'http://caerchacai-001-site1.dtempurl.com/'
+export const GLOBAL_ENDPOINT = 'http://ec2-3-88-190-101.compute-1.amazonaws.com/dashboard/'
+export const AUTH_ENDPOINT = 'auth/'
+export const CLIENTS_ENDPOINT = 'client/'
+export const CONTRACTS_ENDPOINT = 'contract/'
+export const CONSUMPTION_ENDPOINT = 'consumption/'
+export const EXCHANGE_ENDPOINT = 'exchange/'
+export const USER_ENDPOINT = 'user/'

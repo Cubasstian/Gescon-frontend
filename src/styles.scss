@@ -1,0 +1,78 @@
+@import 'themes';
+@import '~@nebular/theme/styles/globals';
+@include nb-install() {
+    @include nb-theme-global();
+}
+
+;
+nb-spinner {
+    z-index: 1 !important;
+}
+
+.nb-theme-default [nbInput].size-small {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: 1px;
+}
+
+.nb-theme-default nb-card.status-primary nb-card-header {
+    background-color: #363636;
+    border-bottom-width: 0;
+    border-bottom-color: #c80a12;
+    color: #ffffff;
+}
+
+.nb-theme-default h5,
+.nb-theme-default h6,
+.nb-theme-default .h1,
+.nb-theme-default .h2,
+.nb-theme-default .h3,
+.nb-theme-default .h4,
+.nb-theme-default .h5,
+.nb-theme-default .h6 {
+    color: #ffffff;
+}
+
+.nb-theme-default nb-menu .menu-item a.active .menu-icon {
+    color: #c80a12;
+}
+
+.nb-theme-default nb-sidebar.compacted nb-menu .menu-item a.active::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: #c80a12;
+}
+
+.nb-theme-default nb-menu .menu-item a:hover .menu-icon {
+    color: #c80a12;
+}
+
+.nb-theme-default nb-menu .menu-item a:hover {
+    color: #c80a12;
+    cursor: pointer;
+}
+
+[_nghost-cxd-c123] nb-layout-header nav {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.nb-theme-default nb-layout-header nav {
+    color: #222b45;
+    box-shadow: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
+    height: 4.75rem;
+    padding-right: 1.25rem;
+}
+
+.nb-theme-default nb-menu .menu-item a.active {
+    color: #c80a12;
+}
+
+.nb-theme-default [nbInput].size-small:not(.input-full-width) {
+    max-width: 8rem;
+}

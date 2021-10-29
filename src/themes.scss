@@ -1,0 +1,12 @@
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/default';
+@import '~@nebular/theme/styles/themes/dark';
+@import 'bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$nb-themes: nb-register-theme(( font-family-primary: unquote('Open Sans, sans-serif'), font-family-secondary: font-family-primary, ),
+default,
+default);
+$nb-themes: nb-register-theme(( color-danger-100: #C80A12, // <- new primary color
+color-danger-200: #C80A12, color-danger-300: #C80A12, color-danger-400: #C80A12, color-danger-500: #C80A12, color-danger-600: #C80A12, color-danger-700: #C80A12, color-danger-800: #C80A12, color-danger-900: #C80A12, text-basic-color: color-basic-800, text-disabled-color: color-basic-600, ),
+default,
+default);
